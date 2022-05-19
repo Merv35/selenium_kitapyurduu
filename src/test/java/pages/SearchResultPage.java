@@ -12,14 +12,14 @@ public class SearchResultPage {
 	
 	public static WebElement get_search_result(WebDriver driver) {
 		
-		element = driver.findElement(By.xpath("//span[contains(text(), 'Bilgisayar, Tablet')]"));
+		element = driver.findElement(By.xpath("//span[contains(text(),'oyuncak')]"));
 		element.getText();
 		System.out.println("Your search result is under" + element + "category!");
 		return element;
 	}
 	public static void check_search_result(WebDriver driver) {
 		
-		String element = driver.findElement(By.xpath("//div[contains(@id, 'div-gpt-ad-1505804094881-0')]//following::h1[1]")).getText();
+		String element = driver.findElement(By.xpath("//*[@class=\"grid_7 omega\"]/div[1]")).getText();
 		System.out.println("Your search is " + element);
 		Assert.assertEquals("bilgisayar", element);
 		

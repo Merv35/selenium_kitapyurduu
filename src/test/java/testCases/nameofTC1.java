@@ -26,12 +26,12 @@ public class nameofTC1 extends Common{
 	@Test
 	public static void mainPageSearch() {
 
-		System.out.println("Main page of GittiGidiyor is opening");
-		driver.get("https://www.gittigidiyor.com");
+		System.out.println("Main page of KitapYurdu is opening");
+		driver.get("https://www.kitapyurdu.com/");
 		//Assert.assertTrue(false);
 		
 		
-		MainPage.textbox_search(driver).sendKeys("Bilgisayar");
+		MainPage.textbox_search(driver).sendKeys("oyuncak");
 		
 		MainPage.button_search(driver).click();
 				
@@ -56,7 +56,7 @@ public class nameofTC1 extends Common{
 		String priceI = SearchResultPage.select_product_price(driver).getText();
 		System.out.println("Your product's price is " + priceI);
 		
-		File file = new File("C:\\Users\\beyza.aydin\\eclipse-workspace\\TSNMWebUI\\productInfoAndPrice.txt");
+		File file = new File("");
 		FileWriter fw = new FileWriter(file);
 		BufferedWriter writer = new BufferedWriter(fw);
 		writer.write(name);
