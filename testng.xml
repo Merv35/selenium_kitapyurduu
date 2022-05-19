@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Tests">
+  <test thread-count="5" name="Functional Testing">
+    <classes>
+      <class name="testCases.nameofTC1"/>
+      <class name="testCases.nameofTC2"/>
+      <class name="testCases.nameofTC3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

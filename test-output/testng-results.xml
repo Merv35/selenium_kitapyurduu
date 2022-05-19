@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9632" started-at="2021-10-03T19:29:26Z" finished-at="2021-10-03T19:29:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9632" started-at="2021-10-03T19:29:26Z" finished-at="2021-10-03T19:29:36Z">
+      <class name="testCases.nameofTC1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCases.nameofTC1@7f552bd3]" name="launchBrowser" is-config="true" duration-ms="4457" started-at="2021-10-03T22:29:21Z" finished-at="2021-10-03T22:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="mainPageSearch()[pri:0, instance:testCases.nameofTC1@7f552bd3]" name="mainPageSearch" duration-ms="9592" started-at="2021-10-03T22:29:26Z" finished-at="2021-10-03T22:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPageSearch -->
+        <test-method status="PASS" signature="openSearchResultPageAndCheck()[pri:0, instance:testCases.nameofTC1@7f552bd3]" name="openSearchResultPageAndCheck" duration-ms="1" started-at="2021-10-03T22:29:36Z" finished-at="2021-10-03T22:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchResultPageAndCheck -->
+        <test-method status="PASS" signature="reporterTest3()[pri:0, instance:testCases.nameofTC1@7f552bd3]" name="reporterTest3" duration-ms="2" started-at="2021-10-03T22:29:36Z" finished-at="2021-10-03T22:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterTest3 -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:testCases.nameofTC1@7f552bd3]" name="closingBrowser" is-config="true" duration-ms="1093" started-at="2021-10-03T22:29:36Z" finished-at="2021-10-03T22:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- testCases.nameofTC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
